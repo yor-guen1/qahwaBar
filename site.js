@@ -42,33 +42,6 @@
     });
   });
 
-
-  /* ---------- gallery lightbox ---------- */
-  var lb = document.getElementById('lightbox');
-  if (lb) {
-    var lbImg = lb.querySelector('img');
-    var items = Array.prototype.slice.call(document.querySelectorAll('[data-lb]'));
-    var cur = 0;
-    function show(i) {
-      cur = (i + items.length) % items.length;
-      var src = items[cur].getAttribute('data-lb');
-      lbImg.src = src;
-    }
-    function open(i) { show(i); lb.classList.add('open'); document.body.style.overflow = 'hidden'; }
-    function close() { lb.classList.remove('open'); document.body.style.overflow = ''; }
-    items.forEach(function (it, i) { it.addEventListener('click', function () { open(i); }); });
-    lb.querySelector('[data-lb-close]').addEventListener('click', close);
-    lb.querySelector('[data-lb-next]').addEventListener('click', function (e) { e.stopPropagation(); show(cur + 1); });
-    lb.querySelector('[data-lb-prev]').addEventListener('click', function (e) { e.stopPropagation(); show(cur - 1); });
-    lb.addEventListener('click', function (e) { if (e.target === lb || e.target.classList.contains('lb-scrim')) close(); });
-    document.addEventListener('keydown', function (e) {
-      if (!lb.classList.contains('open')) return;
-      if (e.key === 'Escape') close();
-      if (e.key === 'ArrowRight') show(cur + 1);
-      if (e.key === 'ArrowLeft') show(cur - 1);
-    });
-  }
-
   /* ============================================================
      Brand Lab — auto-cycle logos on the cart
      ============================================================ */
@@ -108,7 +81,17 @@
   /* ---------- flashquotes modal ---------- */
   var fqModal = document.getElementById('fqModal');
   if (fqModal) {
-    function openFQ() { fqModal.setAttribute('aria-hidden', 'false'); fqModal.classList.add('open'); document.body.style.overflow = 'hidden'; }
+    var fqScriptLoaded = false;
+    function loadFQScript() {
+      if (fqScriptLoaded) return;
+      fqScriptLoaded = true;
+      var s = document.createElement('script');
+      s.setAttribute('form-id', 'cmmkwnfau0001jm04ndaodmbi');
+      s.src = 'https://app.flashquotes.com/embed.js';
+      s.defer = true;
+      fqModal.querySelector('.fq-panel').appendChild(s);
+    }
+    function openFQ() { loadFQScript(); fqModal.setAttribute('aria-hidden', 'false'); fqModal.classList.add('open'); document.body.style.overflow = 'hidden'; }
     function closeFQ() { fqModal.setAttribute('aria-hidden', 'true'); fqModal.classList.remove('open'); document.body.style.overflow = ''; }
     document.querySelectorAll('[data-quote]').forEach(function (el) {
       el.addEventListener('click', function (e) { e.preventDefault(); openFQ(); });

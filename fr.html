@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Qahwa Bar — Café espresso mobile · Ottawa &amp; Montréal</title>
+    <link rel="icon" type="image/jpeg" href="assets/img/qahwa-bar-logo.jpg" />
+    <title>Qahwa Bar | Café espresso mobile | Ottawa &amp; Montréal</title>
     <meta
       name="description"
-      content="Qahwa Bar apporte l'expérience du café à votre événement. Service de café espresso spécialisé pour mariages, événements corporatifs et fêtes privées à Ottawa et Montréal."
+      content="Qahwa Bar apporte l'expérience du café à votre événement : espresso pour mariages, événements corporatifs et fêtes privées à Ottawa et Montréal."
     />
+    <link rel="canonical" href="https://qahwabar.ca/fr.html" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +20,70 @@
     <link rel="alternate" hreflang="en" href="https://qahwabar.ca/index.html" />
     <link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr.html" />
     <link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/index.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Qahwa Bar | Café espresso mobile | Ottawa &amp; Montréal" />
+    <meta property="og:description" content="Qahwa Bar apporte l'expérience du café à votre événement : espresso pour mariages, événements corporatifs et fêtes privées à Ottawa et Montréal." />
+    <meta property="og:url" content="https://qahwabar.ca/fr.html" />
+    <meta property="og:image" content="https://qahwabar.ca/assets/img/cart-lifestyle-arch.jpg" />
+    <meta property="og:locale" content="fr_CA" />
+    <meta property="og:locale:alternate" content="en_CA" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Qahwa Bar",
+      "url": "https://qahwabar.ca/fr.html",
+      "email": "info@qahwabar.ca",
+      "telephone": "+1-514-441-3435",
+      "areaServed": [
+        { "@type": "City", "name": "Ottawa" },
+        { "@type": "City", "name": "Montreal" }
+      ],
+      "description": "Service de café espresso mobile pour mariages, événements corporatifs, fêtes privées et activations de marque à Ottawa et Montréal.",
+      "sameAs": ["https://instagram.com/qahwabar"]
+    }
+    </script>
+    <!-- TODO: verify the real Instagram/social URL above before launch -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Qahwa Bar",
+      "url": "https://qahwabar.ca/fr.html",
+      "inLanguage": ["en", "fr"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien de temps à l'avance devons-nous réserver ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Nous recommandons de réserver au moins 4 à 6 semaines à l'avance, surtout pour les mariages en fin de semaine et la haute saison corporative, mais contactez-nous même si votre date approche, nous ferons de notre mieux." }
+        },
+        {
+          "@type": "Question",
+          "name": "Desservez-vous en dehors d'Ottawa et de Montréal ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Notre base est à Ottawa et à Montréal, et nous nous déplaçons régulièrement vers les villes environnantes pour le bon événement; indiquez-nous votre lieu et nous confirmerons." }
+        },
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qui est inclus dans une réservation ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "L'installation complète du chariot espresso, un barista, les tasses, et votre choix de menu espresso et matcha. Des options comme les tasses personnalisées ou un menu élargi sont disponibles." }
+        },
+        {
+          "@type": "Question",
+          "name": "Pouvez-vous personnaliser le chariot avec notre logo ?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Oui, chaque chariot est une toile vierge. Nous habillons le panneau avant et imprimons les tasses à votre image pour les événements corporatifs et les activations de marque." }
+        }
+      ]
+    }
+    </script>
   </head>
   <body data-screen-label="Home">
     <!-- ============ NAV ============ -->
@@ -25,9 +91,9 @@
       <div class="nav-inner">
         <a href="#" class="brand">Qahwa Bar</a>
         <nav class="nav-links">
-          <a href="#branding">Services</a>
           <a href="#gallery">Galerie</a>
-          <a href="#trusted">À propos</a>
+          <a href="#branding">Services</a>
+          <a href="#about">À propos</a>
           <a href="#contact">Contact</a>
         </nav>
         <div class="nav-right">
@@ -49,9 +115,9 @@
         </button>
       </div>
       <nav class="mm-links">
-        <a href="#branding" data-close-menu><span class="mm-num">01</span>Services</a>
-        <a href="#gallery" data-close-menu><span class="mm-num">02</span>Galerie</a>
-        <a href="#trusted" data-close-menu><span class="mm-num">03</span>À propos</a>
+        <a href="#gallery" data-close-menu><span class="mm-num">01</span>Galerie</a>
+        <a href="#branding" data-close-menu><span class="mm-num">02</span>Services</a>
+        <a href="#about" data-close-menu><span class="mm-num">03</span>À propos</a>
         <a href="#contact" data-close-menu><span class="mm-num">04</span>Contact</a>
         <a href="index.html" hreflang="en"><span class="mm-num">EN</span>English</a>
       </nav>
@@ -61,6 +127,7 @@
       </div>
     </div>
 
+    <main>
     <!-- ============ HERO ============ -->
     <section class="hero">
       <div class="wrap">
@@ -78,7 +145,7 @@
             <div>
               <div class="hero-meta">
                 <div class="item"><b>Où</b>Ottawa &amp; Montréal</div>
-                <div class="item"><b>Pour</b>Mariages · Corporatif · Pop-ups</div>
+                <div class="item"><b>Pour</b>Activations de marque · Corporatif · Pop-ups<span class="item-sub">Fêtes privées · Mariages</span></div>
                 <div class="item"><b>Depuis</b>2024</div>
               </div>
               <div class="hero-actions">
@@ -103,63 +170,31 @@
 
 
 
-    <!-- ============ MARQUEE STRIP ============ -->
-    <div class="strip" aria-hidden="true">
+    <!-- ============ MARQUEE STRIP (trusted-by logos) ============ -->
+    <div class="strip">
       <div class="strip-track">
-        <span>Mariages</span><span>Événements corporatifs</span
-        ><span>Fêtes privées</span><span>Activations de marque</span
-        ><span>Pop-ups</span> <span>Mariages</span><span>Événements corporatifs</span
-        ><span>Fêtes privées</span><span>Activations de marque</span
-        ><span>Pop-ups</span>
+        <div class="strip-logo"><img src="assets/logos/Cisco_logo_blue_2016.svg.png" alt="Cisco" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png" alt="Desjardins" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/H&amp;M-Logo.wine.png" alt="H&amp;M" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/investOttawa.png" alt="Invest Ottawa" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/Lush_logo_black.png" alt="Lush" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/nelligan-logo-colour-black.svg" alt="Nelligan" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/stLaurentMall.png" alt="St. Laurent Mall" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/mobilia.png" alt="Mobilia" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/EV_Logo_RGB.png" alt="EV" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img src="assets/logos/KraftHeinz.svg.png" alt="EV" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/Cisco_logo_blue_2016.svg.png" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/H&amp;M-Logo.wine.png" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/investOttawa.png" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/Lush_logo_black.png" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/nelligan-logo-colour-black.svg" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/stLaurentMall.png" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/mobilia.png" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/EV_Logo_RGB.png" alt="" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img src="assets/logos/KraftHeinz.svg.png" alt="" onerror="this.style.opacity='0'" /></div>
       </div>
     </div>
-
-    <!-- ============ TRUSTED BY (logo wall) ============ -->
-    <section class="section" id="trusted">
-      <div class="wrap">
-        <div
-          class="reveal center"
-          style="margin: 0 auto clamp(28px, 4vw, 48px)"
-        >
-          <div class="eyebrow" style="margin-bottom: 18px">En bonne compagnie</div>
-          <h2 class="h-lg">
-            La confiance des plus grandes entreprises d'Ottawa et de Montréal.
-          </h2>
-        </div>
-        <div class="logo-wall reveal">
-          <div class="logo-slot">
-            <img src="assets/logos/Cisco_logo_blue_2016.svg.png" alt="Cisco" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png" alt="Desjardins" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/H&amp;M-Logo.wine.png" alt="H&amp;M" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/investOttawa.png" alt="Invest Ottawa" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/Lush_logo_black.png" alt="Lush" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/nelligan-logo-colour-black.svg" alt="Nelligan" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/stLaurentMall.png" alt="St. Laurent Mall" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/mobilia.png" alt="Mobilia" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/EV_Logo_RGB.png" alt="EV" onerror="this.style.opacity='0'" />
-          </div>
-          <div class="logo-slot">
-            <img src="assets/logos/KraftHeinz.svg.png" alt="EV" onerror="this.style.opacity='0'" />
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- ============ GALLERY PREVIEW ============ -->
     <section class="section on-green" id="gallery" >
@@ -218,7 +253,7 @@
               src="assets/img/7c2f6c90-dffb-4186-92e9-a23480b59003.jfif"
               alt="Barista au moulin à café"
             />
-            <div class="gal-cap"></div>
+            <div class="gal-cap">Au moulin</div>
           </div>
         </div>
       </div>
@@ -235,14 +270,14 @@
           <h2 class="h-lg">Votre logo, sur notre bar.</h2>
           <p class="lead" style="margin-top: 18px">
             Chaque chariot est une toile vierge. Pour vos activations de marque
-            et événements corporatifs, nous habillons le bar — et imprimons les
-            tasses — à l'image de votre identité.
+            et événements corporatifs, nous habillons le bar et imprimons les
+            tasses à l'image de votre identité.
           </p>
         </div>
         <div class="brandlab-cart-wrap">
           <div class="cart-stage reveal">
             <img
-              src="assets/img/cart-brand.jpg"
+              src="assets/img/cart-brand.png"
               alt="Chariot Qahwa Bar avec panneau avant personnalisable"
             />
             <div class="cart-cover"></div>
@@ -255,7 +290,18 @@
       </div>
     </section>
 
-
+    <!-- ============ ABOUT ============ -->
+    <section class="section on-green" id="about">
+      <div class="wrap">
+        <div class="reveal center" style="max-width: 80ch; margin: 0 auto">
+          <div class="eyebrow" style="margin-bottom: 18px">À propos</div>
+          <h2 class="h-lg">Un vrai café, où que vous receviez.</h2>
+          <p class="lead" style="margin-top: 18px">
+            Qahwa Bar est né d'une idée simple&nbsp;: apporter le rituel d'un vrai café (l'espresso, le soin, la conversation) directement aux événements que vous organisez déjà. Depuis 2024, nous installons notre bar mobile lors de mariages, de lancements corporatifs et de célébrations privées à Ottawa et à Montréal, servant espresso et matcha de qualité à des invités qui s'en souviennent longtemps après l'événement. Chaque réservation est pensée autour de votre événement&nbsp;: votre image de marque, le nombre d'invités, votre ambiance.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <!-- ============ TESTIMONIALS ============ -->
     <section class="section">
@@ -297,6 +343,45 @@ loved the coffee & matcha."
       </div>
     </section>
 
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="wrap">
+        <div class="reveal center" style="max-width: 50ch; margin: 0 auto clamp(32px, 4vw, 52px)">
+          <div class="eyebrow" style="margin-bottom: 18px">Bon à savoir</div>
+          <h2 class="h-lg">Questions fréquentes.</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>Combien de temps à l'avance devons-nous réserver&nbsp;?</h3>
+              <span class="faq-ico"></span>
+            </button>
+            <div class="faq-a"><div class="faq-a-inner">Nous recommandons de réserver au moins 4 à 6 semaines à l'avance, surtout pour les mariages en fin de semaine et la haute saison corporative, mais contactez-nous même si votre date approche, nous ferons de notre mieux.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>Desservez-vous en dehors d'Ottawa et de Montréal&nbsp;?</h3>
+              <span class="faq-ico"></span>
+            </button>
+            <div class="faq-a"><div class="faq-a-inner">Notre base est à Ottawa et à Montréal, et nous nous déplaçons régulièrement vers les villes environnantes pour le bon événement; indiquez-nous votre lieu et nous confirmerons.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>Qu'est-ce qui est inclus dans une réservation&nbsp;?</h3>
+              <span class="faq-ico"></span>
+            </button>
+            <div class="faq-a"><div class="faq-a-inner">L'installation complète du chariot espresso, un barista, les tasses, et votre choix de menu espresso et matcha. Des options comme les tasses personnalisées ou un menu élargi sont disponibles.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              <h3>Pouvez-vous personnaliser le chariot avec notre logo&nbsp;?</h3>
+              <span class="faq-ico"></span>
+            </button>
+            <div class="faq-a"><div class="faq-a-inner">Oui, chaque chariot est une toile vierge. Nous habillons le panneau avant et imprimons les tasses à votre image pour les événements corporatifs et les activations de marque.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ============ FINAL CTA ============ -->
     <section class="cta-final" id="contact">
@@ -334,12 +419,9 @@ loved the coffee & matcha."
         aria-label="Demander un devis"
       >
         <button class="fq-close" aria-label="Fermer">×</button>
-        <script
-          form-id="cmmkwnfau0001jm04ndaodmbi"
-          src="https://app.flashquotes.com/embed.js"
-        ></script>
       </div>
     </div>
+    </main>
 
     <!-- ============ FOOTER ============ -->
     <footer class="footer">
@@ -348,15 +430,15 @@ loved the coffee & matcha."
           <div>
             <a href="#" class="brand">Qahwa Bar</a>
             <p class="footer-tag">
-              On apporte l'expérience du café à votre événement — partout à
+              On apporte l'expérience du café à votre événement, partout à
               Ottawa &amp; Montréal.
             </p>
           </div>
           <div class="footer-col">
             <h4>Explorer</h4>
-            <a href="#branding">Services</a>
             <a href="#gallery">Galerie</a>
-            <a href="#trusted">À propos</a>
+            <a href="#branding">Services</a>
+            <a href="#about">À propos</a>
             <a href="#contact">Contact</a>
           </div>
           <div class="footer-col">
@@ -370,7 +452,7 @@ loved the coffee & matcha."
             <h4>Nous joindre</h4>
             <a href="mailto:info@qahwabar.ca">info@qahwabar.ca</a>
             <a href="tel:+15144413435">(514) 441-3435</a>
-            <a href="#">@qahwabar</a>
+            <a href="https://instagram.com/qahwabar" target="_blank" rel="noopener">@qahwabar</a>
             <p>Ottawa &amp; Montréal</p>
           </div>
         </div>
