@@ -276,6 +276,19 @@ em.accent {
   text-transform: uppercase;
   white-space: nowrap;
   color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+}
+
+.brand-logo {
+  height: 34px;
+  width: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.mm-top .brand-logo {
+  height: 30px;
 }
 
 .nav-links {
@@ -600,7 +613,8 @@ em.accent {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .strip-track {
+  .strip-track,
+  .gal-strip-track {
     animation: none;
   }
 }
@@ -816,13 +830,6 @@ em.accent {
 }
 
 /* ---------- gallery ---------- */
-.gal-grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: min(200px, 25vh);
-  gap: 8px;
-}
-
 .gal-item {
   position: relative;
   overflow: hidden;
@@ -861,6 +868,39 @@ em.accent {
 .gal-item:hover .gal-cap {
   opacity: 1;
   transform: none;
+}
+
+.gal-strip {
+  overflow: hidden;
+  margin-top: clamp(20px, 3vw, 32px);
+}
+
+.gal-strip-track {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: max-content;
+  animation: marquee 50s linear infinite;
+}
+
+.gal-strip:hover .gal-strip-track {
+  animation-play-state: paused;
+}
+
+.gal-strip-item {
+  flex: 0 0 auto;
+  width: clamp(220px, 26vw, 320px);
+  aspect-ratio: 4 / 5;
+}
+
+@media(max-width:560px) {
+  .gal-strip-track {
+    gap: 14px;
+  }
+
+  .gal-strip-item {
+    width: clamp(160px, 62vw, 220px);
+  }
 }
 
 /* ---------- FAQ ---------- */
@@ -993,6 +1033,11 @@ em.accent {
   font-size: 26px;
   margin-bottom: 18px;
   display: block;
+}
+
+.footer .brand-logo {
+  height: 46px;
+  border-radius: 6px;
 }
 
 .footer-col h4 {
@@ -1219,6 +1264,21 @@ em.accent {
   pointer-events: auto;
 }
 
+.lb-cap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: clamp(16px, 4vw, 32px);
+  z-index: 1;
+  text-align: center;
+  color: var(--cream);
+  font-size: 12px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  pointer-events: none;
+}
+
 .lb-btn {
   position: absolute;
   z-index: 2;
@@ -1355,9 +1415,36 @@ em.accent {
   margin: 0 auto;
 }
 
+.check-list {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.check-list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 15.5px;
+}
+
+.check-ico {
+  flex: 0 0 auto;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--cream);
+  display: grid;
+  place-items: center;
+  font-size: 13px;
+}
+
 .cart-stage {
   position: relative;
-  container-type: inline-size;
   overflow: hidden;
   border-radius: 14px;
   background: #111;
