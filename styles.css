@@ -48,6 +48,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -500,7 +501,14 @@ em.accent {
   font-size: clamp(46px, 6.4vw, 82px);
   line-height: .98;
   letter-spacing: -.02em;
-  margin-top: 26px;
+}
+
+/* eyebrow lives inside the h1 so the keyword is part of the heading */
+.hero-h1 .eyebrow {
+  display: block;
+  margin-bottom: 26px;
+  line-height: 1.2;
+  font-weight: 600;
 }
 
 .hero-meta {
