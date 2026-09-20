@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" as="image" type="image/webp" href="assets/img/cart-lifestyle-arch.webp" fetchpriority="high" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="alternate" hreflang="en" href="https://qahwabar.ca/" />
     <link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr.html" />
@@ -25,25 +26,29 @@
     <meta property="og:title" content="Café espresso mobile Ottawa et Montréal | Qahwa Bar" />
     <meta property="og:description" content="Service de café espresso pour mariages, événements corporatifs et fêtes privées à Ottawa, Montréal, Gatineau et les environs. Demandez une soumission." />
     <meta property="og:url" content="https://qahwabar.ca/fr.html" />
-    <meta property="og:image" content="https://qahwabar.ca/assets/img/cart-lifestyle-arch.jpg" />
+    <meta property="og:image" content="https://qahwabar.ca/assets/img/og-cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="fr_CA" />
     <meta property="og:locale:alternate" content="en_CA" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Café espresso mobile Ottawa et Montréal | Qahwa Bar" />
     <meta name="twitter:description" content="Service de café espresso pour mariages, événements corporatifs et fêtes privées à Ottawa, Montréal, Gatineau et les environs. Demandez une soumission." />
-    <meta name="twitter:image" content="https://qahwabar.ca/assets/img/cart-lifestyle-arch.jpg" />
+    <meta name="twitter:image" content="https://qahwabar.ca/assets/img/og-cover.jpg" />
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
+      "@type": ["LocalBusiness", "FoodService"],
       "@id": "https://qahwabar.ca/#business",
       "name": "Qahwa Bar",
       "url": "https://qahwabar.ca/",
-      "image": "https://qahwabar.ca/assets/img/cart-lifestyle-arch.jpg",
-      "logo": "https://qahwabar.ca/assets/img/qahwa-bar-logo.jpg",
+      "image": "https://qahwabar.ca/assets/img/og-cover.jpg",
+      "logo": "https://qahwabar.ca/assets/img/qahwa-bar-logo-crop.png",
       "email": "info@qahwabar.ca",
       "telephone": "+1-514-441-3435",
+      "serviceType": "Service de café traiteur",
+      "address": { "@type": "PostalAddress", "addressLocality": "Ottawa", "addressRegion": "ON", "addressCountry": "CA" },
       "areaServed": [
         { "@type": "City", "name": "Ottawa" },
         { "@type": "City", "name": "Montreal" },
@@ -52,7 +57,7 @@
         { "@type": "City", "name": "Gatineau" },
         { "@type": "City", "name": "Kanata" }
       ],
-      "description": "Service de café espresso mobile pour mariages, événements corporatifs, fêtes privées et activations de marque à Ottawa, Montréal, Cornwall, Hawkesbury, Gatineau, Kanata et les environs.",
+      "description": "Service de café espresso mobile pour mariages, événements corporatifs, fêtes privées et activations de marque à Ottawa, Montréal, Cornwall, Hawkesbury, Gatineau, Kanata et les environs. Basé à Ottawa, sur rendez-vous.",
       "sameAs": ["https://instagram.com/qahwabar"]
     }
     </script>
@@ -168,7 +173,7 @@
           <div class="hero-right">
             <span class="hero-tag">Espresso de spécialité</span>
             <img fetchpriority="high" width="1024" height="1536"
-              src="assets/img/cart-lifestyle-arch.jpg"
+              src="assets/img/cart-lifestyle-arch.webp"
               alt="Deux tasses Qahwa Bar se remplissant d'espresso"
             />
           </div>
@@ -229,8 +234,8 @@
           </div>
           <div class="brandlab-cart-wrap">
             <div class="cart-stage reveal">
-              <img width="1600" height="1152"
-                src="assets/img/cart-brand.jpg"
+              <img width="1600" height="1152" loading="lazy" decoding="async"
+                src="assets/img/cart-brand.webp"
                 alt="Chariot Qahwa Bar avec panneau avant personnalisable"
               />
               <div class="cart-cover"></div>
@@ -307,11 +312,7 @@
             <div class="gal-cap">Mobilia</div>
           </div>
           <div class="gal-item gal-strip-item">
-<<<<<<< Updated upstream
-            <img src="assets/img/qahwaBarStand.jfif" alt="Kiosque Qahwa Bar" />
-=======
             <img width="1200" height="675" loading="lazy" decoding="async" src="assets/img/qahwaBarStand.webp" alt="Kiosque Qahwa Bar" />
->>>>>>> Stashed changes
             <div class="gal-cap">Kiosque</div>
           </div>
           <div class="gal-item gal-strip-item">
@@ -355,11 +356,7 @@
             <div class="gal-cap">Mobilia</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-<<<<<<< Updated upstream
-            <img src="assets/img/qahwaBarStand.jfif" alt="" />
-=======
             <img width="1200" height="675" loading="lazy" decoding="async" src="assets/img/qahwaBarStand.webp" alt="" />
->>>>>>> Stashed changes
             <div class="gal-cap">Kiosque</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
@@ -477,7 +474,7 @@ loved the coffee & matcha."
 
     <!-- ============ FINAL CTA ============ -->
     <section class="cta-final" id="contact">
-      <img width="1024" height="1536" class="cta-bg" loading="lazy" decoding="async" src="assets/img/cart-wide-elegant.jpg" alt="" />
+      <img width="1024" height="1536" class="cta-bg" loading="lazy" decoding="async" src="assets/img/cart-wide-elegant.webp" alt="" />
       <div class="cta-scrim"></div>
       <div class="wrap">
         <div class="cta-inner reveal">
