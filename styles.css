@@ -1727,3 +1727,139 @@ em.accent {
     transform: none;
   }
 }
+/* ---------- landing pages (city / service) ---------- */
+.photo-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(12px, 2vw, 24px);
+}
+
+.photo-row img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+}
+
+@media(max-width:700px) {
+  .photo-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- services dropdown (desktop nav) ---------- */
+.nav-dd {
+  position: relative;
+}
+
+.nav-dd-btn {
+  font: inherit;
+  font-size: 12.5px;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--ink);
+  opacity: .82;
+  background: none;
+  border: 0;
+  padding: 0;
+  line-height: inherit;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+
+.nav-dd-btn::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0 0 3px 8px;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: rotate(45deg);
+}
+
+.nav-dd:hover .nav-dd-btn,
+.nav-dd.open .nav-dd-btn,
+.nav-dd-btn:focus-visible {
+  opacity: 1;
+}
+
+.nav-dd-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -20px;
+  min-width: 230px;
+  margin-top: 14px;
+  padding: 10px 0;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  box-shadow: 0 12px 32px rgba(21, 20, 15, .12);
+}
+
+/* invisible bridge so the menu doesn't close while the pointer crosses the gap */
+.nav-dd-menu::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -16px;
+  height: 16px;
+}
+
+.nav-dd:hover .nav-dd-menu,
+.nav-dd:focus-within .nav-dd-menu,
+.nav-dd.open .nav-dd-menu {
+  display: block;
+}
+
+.nav-links .nav-dd-menu a {
+  display: block;
+  padding: 10px 22px;
+  white-space: nowrap;
+}
+
+.nav-dd-menu hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 8px 0;
+}
+
+/* ---------- mobile menu: services group ---------- */
+.mobile-menu {
+  overflow-y: auto;
+}
+
+.mm-links .mm-group {
+  font-family: var(--serif);
+  font-size: clamp(38px, 11vw, 60px);
+  line-height: 1.18;
+  color: var(--cream);
+}
+
+.mm-links .mm-group .mm-num {
+  font-family: var(--sans);
+  font-size: 13px;
+  letter-spacing: .1em;
+  color: var(--tan-soft);
+  vertical-align: super;
+  margin-right: 14px;
+}
+
+.mm-links a.mm-sub {
+  font-family: var(--sans);
+  font-size: 18px;
+  letter-spacing: .04em;
+  line-height: 1.5;
+  padding-left: 44px;
+  color: var(--tan-soft);
+}

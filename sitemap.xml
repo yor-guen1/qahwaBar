@@ -4,17 +4,141 @@
   <url>
     <loc>https://qahwabar.ca/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/"/>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-21</lastmod>
   </url>
   <url>
-    <loc>https://qahwabar.ca/fr.html</loc>
+    <loc>https://qahwabar.ca/fr/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/"/>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/ottawa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/ottawa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/ottawa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/ottawa/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/ottawa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/ottawa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/ottawa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/ottawa/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/montreal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/montreal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/montreal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/montreal/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/montreal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/montreal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/montreal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/montreal/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/gatineau/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/gatineau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/gatineau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/gatineau/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/gatineau/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/gatineau/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/gatineau/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/gatineau/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/weddings/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/weddings/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/mariages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/weddings/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/mariages/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/weddings/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/mariages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/weddings/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/corporate/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/corporate/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/evenements-corporatifs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/corporate/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/evenements-corporatifs/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/corporate/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/evenements-corporatifs/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/corporate/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/brand-activations/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/brand-activations/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/activations-de-marque/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/brand-activations/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/activations-de-marque/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/brand-activations/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/activations-de-marque/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/brand-activations/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/pop-up-espresso-bar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/pop-up-espresso-bar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/bar-espresso-pop-up/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/pop-up-espresso-bar/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/bar-espresso-pop-up/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/pop-up-espresso-bar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/bar-espresso-pop-up/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/pop-up-espresso-bar/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/matcha-bar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/matcha-bar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/bar-a-matcha/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/matcha-bar/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/bar-a-matcha/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/matcha-bar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/bar-a-matcha/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/matcha-bar/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/barista-for-events/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/barista-for-events/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/barista-evenements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/barista-for-events/"/>
+    <lastmod>2026-09-21</lastmod>
+  </url>
+  <url>
+    <loc>https://qahwabar.ca/fr/barista-evenements/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://qahwabar.ca/barista-for-events/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/barista-evenements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/barista-for-events/"/>
+    <lastmod>2026-09-21</lastmod>
   </url>
 </urlset>

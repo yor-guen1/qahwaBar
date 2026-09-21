@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/jpeg" href="assets/img/qahwa-bar-logo.jpg" />
-    <title>Coffee &amp; Espresso Catering Ottawa &amp; Montreal | Qahwa Bar</title>
+    <link rel="icon" type="image/jpeg" href="/assets/img/qahwa-bar-logo.jpg" />
+    <title>Mobile Coffee &amp; Espresso Catering Ottawa &amp; Montreal | Qahwa Bar</title>
     <meta
       name="description"
       content="Mobile coffee, espresso &amp; matcha catering for weddings, corporate events &amp; private parties in Ottawa, Montreal, Gatineau and nearby. Request a quote today."
@@ -16,23 +16,24 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preload" as="image" type="image/webp" href="assets/img/cart-lifestyle-arch.webp" fetchpriority="high" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preload" as="image" type="image/webp" href="/assets/img/cart-lifestyle-arch.webp" fetchpriority="high" />
+    <link rel="stylesheet" href="/styles.css" />
     <link rel="alternate" hreflang="en" href="https://qahwabar.ca/" />
-    <link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr.html" />
+    <link rel="alternate" hreflang="fr" href="https://qahwabar.ca/fr/" />
     <link rel="alternate" hreflang="x-default" href="https://qahwabar.ca/" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Coffee &amp; Espresso Catering Ottawa &amp; Montreal | Qahwa Bar" />
+    <meta property="og:title" content="Mobile Coffee &amp; Espresso Catering Ottawa &amp; Montreal | Qahwa Bar" />
     <meta property="og:description" content="Mobile coffee, espresso &amp; matcha catering for weddings, corporate events &amp; private parties in Ottawa, Montreal, Gatineau and nearby. Request a quote today." />
     <meta property="og:url" content="https://qahwabar.ca/" />
     <meta property="og:image" content="https://qahwabar.ca/assets/img/og-cover.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Qahwa Bar mobile espresso cart" />
     <meta property="og:locale" content="en_CA" />
     <meta property="og:locale:alternate" content="fr_CA" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Coffee &amp; Espresso Catering Ottawa &amp; Montreal | Qahwa Bar" />
+    <meta name="twitter:title" content="Mobile Coffee &amp; Espresso Catering Ottawa &amp; Montreal | Qahwa Bar" />
     <meta name="twitter:description" content="Mobile coffee, espresso &amp; matcha catering for weddings, corporate events &amp; private parties in Ottawa, Montreal, Gatineau and nearby. Request a quote today." />
     <meta name="twitter:image" content="https://qahwabar.ca/assets/img/og-cover.jpg" />
 
@@ -103,15 +104,29 @@
     <!-- ============ NAV ============ -->
     <header class="nav">
       <div class="nav-inner">
-        <a href="index.html" class="brand"><img width="400" height="140" src="assets/img/qahwa-bar-logo-crop.png" alt="Qahwa Bar" class="brand-logo" /></a>
+        <a href="/" class="brand"><img width="400" height="140" src="/assets/img/qahwa-bar-logo-crop.png" alt="Qahwa Bar" class="brand-logo" /></a>
         <nav class="nav-links">
-          <a href="#branding">Services</a>
+          <div class="nav-dd">
+            <button type="button" class="nav-dd-btn" aria-expanded="false" aria-haspopup="true">Services</button>
+            <div class="nav-dd-menu">
+              <a href="/weddings/">Weddings</a>
+              <a href="/corporate/">Corporate Events</a>
+              <a href="/brand-activations/">Brand Activations</a>
+              <a href="/pop-up-espresso-bar/">Pop-Up Bar</a>
+              <a href="/matcha-bar/">Matcha Bar</a>
+              <a href="/barista-for-events/">Barista for Events</a>
+              <hr />
+              <a href="/ottawa/">Ottawa</a>
+              <a href="/montreal/">Montreal</a>
+              <a href="/gatineau/">Gatineau</a>
+            </div>
+          </div>
           <a href="#gallery">Gallery</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
         </nav>
         <div class="nav-right">
-          <a href="fr.html" class="nav-lang" hreflang="fr">FR</a>
+          <a href="/fr/" class="nav-lang" hreflang="fr">FR</a>
           <a href="mailto:info@qahwabar.ca" class="nav-cta" data-quote>Request a Quote</a>
           <button class="nav-toggle" aria-label="Open menu">
             <span></span><span></span><span></span>
@@ -123,17 +138,26 @@
     <!-- ============ MOBILE MENU ============ -->
     <div class="mobile-menu">
       <div class="mm-top">
-        <span class="brand"><img width="400" height="140" src="assets/img/qahwa-bar-logo-crop.png" alt="Qahwa Bar" class="brand-logo" /></span>
+        <span class="brand"><img width="400" height="140" src="/assets/img/qahwa-bar-logo-crop.png" alt="Qahwa Bar" class="brand-logo" /></span>
         <button class="mm-close" data-close-menu aria-label="Close menu">
           ×
         </button>
       </div>
       <nav class="mm-links">
-        <a href="#branding" data-close-menu><span class="mm-num">01</span>Services</a>
+        <span class="mm-group"><span class="mm-num">01</span>Services</span>
+        <a href="/weddings/" class="mm-sub" data-close-menu>Weddings</a>
+        <a href="/corporate/" class="mm-sub" data-close-menu>Corporate Events</a>
+        <a href="/brand-activations/" class="mm-sub" data-close-menu>Brand Activations</a>
+        <a href="/pop-up-espresso-bar/" class="mm-sub" data-close-menu>Pop-Up Bar</a>
+        <a href="/matcha-bar/" class="mm-sub" data-close-menu>Matcha Bar</a>
+        <a href="/barista-for-events/" class="mm-sub" data-close-menu>Barista for Events</a>
+        <a href="/ottawa/" class="mm-sub" data-close-menu>Ottawa</a>
+        <a href="/montreal/" class="mm-sub" data-close-menu>Montreal</a>
+        <a href="/gatineau/" class="mm-sub" data-close-menu>Gatineau</a>
         <a href="#gallery" data-close-menu><span class="mm-num">02</span>Gallery</a>
         <a href="#about" data-close-menu><span class="mm-num">03</span>About</a>
         <a href="#contact" data-close-menu><span class="mm-num">04</span>Contact</a>
-        <a href="fr.html" hreflang="fr"><span class="mm-num">FR</span>Français</a>
+        <a href="/fr/" hreflang="fr"><span class="mm-num">FR</span>Français</a>
       </nav>
       <div class="mm-foot">
         <span>info@qahwabar.ca</span>
@@ -149,7 +173,7 @@
           <div class="hero-left">
             <div>
               <h1 class="hero-h1">
-                <span class="eyebrow">Mobile Espresso Catering</span>
+                <span class="eyebrow">Mobile Espresso &amp; Coffee Catering · Ottawa &amp; Montreal</span>
                 We bring the<br /><em class="accent" style="color: var(--green)"
                   >coffee&nbsp;shop</em
                 >
@@ -173,7 +197,7 @@
           <div class="hero-right">
             <span class="hero-tag">Specialty Espresso</span>
             <img fetchpriority="high" width="1024" height="1536"
-              src="assets/img/cart-lifestyle-arch.webp"
+              src="/assets/img/cart-lifestyle-arch.webp"
               alt="Two branded Qahwa Bar cups filling with espresso"
             />
           </div>
@@ -187,26 +211,26 @@
     <!-- ============ MARQUEE STRIP (trusted-by logos) ============ -->
     <div class="strip">
       <div class="strip-track">
-        <div class="strip-logo"><img width="1280" height="676" src="assets/logos/Cisco_logo_blue_2016.svg.png" alt="Cisco" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="2000" height="1125" src="assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png" alt="Desjardins" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="3000" height="2000" src="assets/logos/H&amp;M-Logo.wine.png" alt="H&amp;M" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="364" height="138" src="assets/logos/investOttawa.png" alt="Invest Ottawa" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="5200" height="1500" src="assets/logos/Lush_logo_black.png" alt="Lush" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="535" height="145" src="assets/logos/nelligan-logo-colour-black.svg" alt="Nelligan" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="600" height="260" src="assets/logos/stLaurentMall.png" alt="St. Laurent Mall" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="1200" height="630" src="assets/logos/mobilia.png" alt="Mobilia" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="2263" height="498" src="assets/logos/EV_Logo_RGB.png" alt="EV" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo"><img width="3840" height="652" src="assets/logos/KraftHeinz.svg.png" alt="Kraft Heinz" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="1280" height="676" src="assets/logos/Cisco_logo_blue_2016.svg.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="2000" height="1125" src="assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="3000" height="2000" src="assets/logos/H&amp;M-Logo.wine.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="364" height="138" src="assets/logos/investOttawa.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="5200" height="1500" src="assets/logos/Lush_logo_black.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="535" height="145" src="assets/logos/nelligan-logo-colour-black.svg" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="600" height="260" src="assets/logos/stLaurentMall.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="1200" height="630" src="assets/logos/mobilia.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="2263" height="498" src="assets/logos/EV_Logo_RGB.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
-        <div class="strip-logo" aria-hidden="true"><img width="3840" height="652" src="assets/logos/KraftHeinz.svg.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="1280" height="676" src="/assets/logos/Cisco_logo_blue_2016.svg.png" alt="Cisco" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="2000" height="1125" src="/assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png" alt="Desjardins" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="3000" height="2000" src="/assets/logos/H&amp;M-Logo.wine.png" alt="H&amp;M" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="364" height="138" src="/assets/logos/investOttawa.png" alt="Invest Ottawa" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="5200" height="1500" src="/assets/logos/Lush_logo_black.png" alt="Lush" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="535" height="145" src="/assets/logos/nelligan-logo-colour-black.svg" alt="Nelligan" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="600" height="260" src="/assets/logos/stLaurentMall.png" alt="St. Laurent Mall" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="1200" height="630" src="/assets/logos/mobilia.png" alt="Mobilia" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="2263" height="498" src="/assets/logos/EV_Logo_RGB.png" alt="EV" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo"><img width="3840" height="652" src="/assets/logos/KraftHeinz.svg.png" alt="Kraft Heinz" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="1280" height="676" src="/assets/logos/Cisco_logo_blue_2016.svg.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="2000" height="1125" src="/assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="3000" height="2000" src="/assets/logos/H&amp;M-Logo.wine.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="364" height="138" src="/assets/logos/investOttawa.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="5200" height="1500" src="/assets/logos/Lush_logo_black.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="535" height="145" src="/assets/logos/nelligan-logo-colour-black.svg" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="600" height="260" src="/assets/logos/stLaurentMall.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="1200" height="630" src="/assets/logos/mobilia.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="2263" height="498" src="/assets/logos/EV_Logo_RGB.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
+        <div class="strip-logo" aria-hidden="true"><img width="3840" height="652" src="/assets/logos/KraftHeinz.svg.png" alt="" loading="lazy" decoding="async" onerror="this.style.opacity='0'" /></div>
       </div>
     </div>
 
@@ -234,7 +258,7 @@
           <div class="brandlab-cart-wrap">
             <div class="cart-stage reveal">
               <img width="1600" height="1152" loading="lazy" decoding="async"
-                src="assets/img/cart-brand.webp"
+                src="/assets/img/cart-brand.webp"
                 alt="Qahwa Bar cart with customisable front-panel branding"
               />
               <div class="cart-cover"></div>
@@ -275,91 +299,91 @@
       <div class="gal-strip reveal">
         <div class="gal-strip-track">
           <div class="gal-item gal-strip-item">
-            <img width="1536" height="2048" loading="lazy" decoding="async" src="assets/img/morris.webp" alt="Qahwa Bar cart set up on site" />
+            <img width="1536" height="2048" loading="lazy" decoding="async" src="/assets/img/morris.webp" alt="Qahwa Bar cart set up on site" />
             <div class="gal-cap">The Cart · Ottawa</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/360Laurier.webp" alt="Qahwa Bar service at 360 Laurier" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/360Laurier.webp" alt="Qahwa Bar espresso cart serving guests at 360 Laurier" />
             <div class="gal-cap">360 Laurier</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1066" height="1600" loading="lazy" decoding="async" src="assets/img/BabyClark.webp" alt="Qahwa Bar service at Baby Clark" />
+            <img width="1066" height="1600" loading="lazy" decoding="async" src="/assets/img/BabyClark.webp" alt="Qahwa Bar espresso cart serving guests at Baby Clark" />
             <div class="gal-cap">Baby Clark</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/CarltonWest.webp" alt="Qahwa Bar service at Carlton West" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/CarltonWest.webp" alt="Qahwa Bar espresso cart serving guests at Carlton West" />
             <div class="gal-cap">Carlton West</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/CF.webp" alt="Qahwa Bar service at a CF event" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/CF.webp" alt="Qahwa Bar espresso cart serving guests at a CF event" />
             <div class="gal-cap">CF</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/Cisco.webp" alt="Qahwa Bar service at Cisco" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/Cisco.webp" alt="Qahwa Bar espresso cart serving guests at Cisco" />
             <div class="gal-cap">Cisco</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/CosyVeganDrinks.webp" alt="Qahwa Bar service at Cosy Vegan Drinks" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/CosyVeganDrinks.webp" alt="Qahwa Bar espresso cart serving guests at Cosy Vegan Drinks" />
             <div class="gal-cap">Cosy Vegan Drinks</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/HM.webp" alt="Qahwa Bar service at H&amp;M" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/HM.webp" alt="Qahwa Bar espresso cart serving guests at H&amp;M" />
             <div class="gal-cap">H&amp;M</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/Mobilia.webp" alt="Qahwa Bar service at Mobilia" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/Mobilia.webp" alt="Qahwa Bar espresso cart serving guests at Mobilia" />
             <div class="gal-cap">Mobilia</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="675" loading="lazy" decoding="async" src="assets/img/qahwaBarStand.webp" alt="Qahwa Bar pop-up stand" />
+            <img width="1200" height="675" loading="lazy" decoding="async" src="/assets/img/qahwaBarStand.webp" alt="Qahwa Bar pop-up stand" />
             <div class="gal-cap">Pop-Up Stand</div>
           </div>
           <div class="gal-item gal-strip-item">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/StLaurent.webp" alt="Qahwa Bar service at St-Laurent" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/StLaurent.webp" alt="Qahwa Bar espresso cart serving guests at St-Laurent" />
             <div class="gal-cap">St-Laurent</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1536" height="2048" loading="lazy" decoding="async" src="assets/img/morris.webp" alt="" />
+            <img width="1536" height="2048" loading="lazy" decoding="async" src="/assets/img/morris.webp" alt="" />
             <div class="gal-cap">The Cart · Ottawa</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/360Laurier.webp" alt="" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/360Laurier.webp" alt="" />
             <div class="gal-cap">360 Laurier</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1066" height="1600" loading="lazy" decoding="async" src="assets/img/BabyClark.webp" alt="" />
+            <img width="1066" height="1600" loading="lazy" decoding="async" src="/assets/img/BabyClark.webp" alt="" />
             <div class="gal-cap">Baby Clark</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/CarltonWest.webp" alt="" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/CarltonWest.webp" alt="" />
             <div class="gal-cap">Carlton West</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/CF.webp" alt="" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/CF.webp" alt="" />
             <div class="gal-cap">CF</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/Cisco.webp" alt="" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/Cisco.webp" alt="" />
             <div class="gal-cap">Cisco</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/CosyVeganDrinks.webp" alt="" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/CosyVeganDrinks.webp" alt="" />
             <div class="gal-cap">Cosy Vegan Drinks</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/HM.webp" alt="" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/HM.webp" alt="" />
             <div class="gal-cap">H&amp;M</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/Mobilia.webp" alt="" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/Mobilia.webp" alt="" />
             <div class="gal-cap">Mobilia</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="675" loading="lazy" decoding="async" src="assets/img/qahwaBarStand.webp" alt="" />
+            <img width="1200" height="675" loading="lazy" decoding="async" src="/assets/img/qahwaBarStand.webp" alt="" />
             <div class="gal-cap">Pop-Up Stand</div>
           </div>
           <div class="gal-item gal-strip-item" aria-hidden="true">
-            <img width="1200" height="1600" loading="lazy" decoding="async" src="assets/img/StLaurent.webp" alt="" />
+            <img width="1200" height="1600" loading="lazy" decoding="async" src="/assets/img/StLaurent.webp" alt="" />
             <div class="gal-cap">St-Laurent</div>
           </div>
         </div>
@@ -473,7 +497,7 @@ loved the coffee & matcha."
 
     <!-- ============ FINAL CTA ============ -->
     <section class="cta-final" id="contact">
-      <img width="1024" height="1536" class="cta-bg" loading="lazy" decoding="async" src="assets/img/cart-wide-elegant.webp" alt="" />
+      <img width="1024" height="1536" class="cta-bg" loading="lazy" decoding="async" src="/assets/img/cart-wide-elegant.webp" alt="" />
       <div class="cta-scrim"></div>
       <div class="wrap">
         <div class="cta-inner reveal">
@@ -516,7 +540,7 @@ loved the coffee & matcha."
       <div class="wrap">
         <div class="footer-top">
           <div>
-            <a href="index.html" class="brand"><img width="400" height="140" src="assets/img/qahwa-bar-logo-crop.png" alt="Qahwa Bar" class="brand-logo" /></a>
+            <a href="/" class="brand"><img width="400" height="140" src="/assets/img/qahwa-bar-logo-crop.png" alt="Qahwa Bar" class="brand-logo" /></a>
             <p class="footer-tag">
               We bring the coffee shop experience to your event, across
               Ottawa, Montreal, Cornwall, Hawkesbury, Gatineau &amp; Kanata.
@@ -531,17 +555,22 @@ loved the coffee & matcha."
           </div>
           <div class="footer-col">
             <h4>Services</h4>
-            <a href="#branding">Weddings</a>
-            <a href="#branding">Corporate Events</a>
+            <a href="/weddings/">Weddings</a>
+            <a href="/corporate/">Corporate Events</a>
             <a href="#branding">Private Parties</a>
-            <a href="#branding">Brand Activations</a>
+            <a href="/brand-activations/">Brand Activations</a>
+            <a href="/pop-up-espresso-bar/">Pop-Up Bar</a>
+            <a href="/matcha-bar/">Matcha Bar</a>
+            <a href="/barista-for-events/">Barista for Events</a>
           </div>
           <div class="footer-col">
             <h4>Get in touch</h4>
             <a href="mailto:info@qahwabar.ca">info@qahwabar.ca</a>
             <a href="tel:+15144413435">(514) 441-3435</a>
             <a href="https://instagram.com/qahwabar" target="_blank" rel="noopener">@qahwabar</a>
-            <p>Ottawa &amp; Montreal</p>
+            <a href="/ottawa/">Ottawa</a>
+            <a href="/montreal/">Montreal</a>
+            <a href="/gatineau/">Gatineau</a>
           </div>
         </div>
         <div class="footer-bottom">
@@ -551,6 +580,6 @@ loved the coffee & matcha."
       </div>
     </footer>
 
-    <script src="site.js"></script>
+    <script src="/site.js"></script>
   </body>
 </html>
