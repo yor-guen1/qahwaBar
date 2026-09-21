@@ -25,6 +25,16 @@
     });
   }
 
+  /* ---------- services dropdown (desktop nav) ---------- */
+  document.querySelectorAll('.nav-dd').forEach(function (dd) {
+    var btn = dd.querySelector('.nav-dd-btn');
+    function setOpen(o) { dd.classList.toggle('open', o); btn.setAttribute('aria-expanded', o ? 'true' : 'false'); }
+    btn.addEventListener('click', function (e) { e.stopPropagation(); setOpen(!dd.classList.contains('open')); });
+    dd.addEventListener('mouseleave', function () { setOpen(false); });
+    document.addEventListener('click', function (e) { if (!dd.contains(e.target)) setOpen(false); });
+    dd.addEventListener('keydown', function (e) { if (e.key === 'Escape') { setOpen(false); btn.focus(); } });
+  });
+
   /* ---------- FAQ accordion ---------- */
   document.querySelectorAll('.faq-item').forEach(function (item) {
     var q = item.querySelector('.faq-q');
@@ -49,10 +59,10 @@
   var cartYourLogo = document.getElementById('cartYourLogo');
   if (cartLogo) {
     var logos = [
-      'assets/logos/Cisco_logo_blue_2016.svg.png',
-      'assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png',
-      'assets/logos/H&M-Logo.wine.png',
-      'assets/logos/KraftHeinz.svg.png',
+      '/assets/logos/Cisco_logo_blue_2016.svg.png',
+      '/assets/logos/455-4553684_d15-desjardins-logo-caisse-desjardins-hd-png-download.png',
+      '/assets/logos/H&M-Logo.wine.png',
+      '/assets/logos/KraftHeinz.svg.png',
       null
     ];
     var logoIdx = 0;
